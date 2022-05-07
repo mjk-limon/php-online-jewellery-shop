@@ -97,11 +97,12 @@ input[type=submit] {
 	text-decoration: solid;
 	border: 0px solid #C5B358;
 	position: relative;
+	text-transform: uppercase;
 }
 .menu ul li a:hover {
 	background-color: #696969;
 	color: white;
-	border: 1px solid #white;
+	border: 0;
 }
 /*Gold,Silver,Diamond,Men's collection*/
 .dropdown {
@@ -186,7 +187,8 @@ input[type=submit] {
 }
 .categories li {
 	list-style-type: none;
-	display: inline-block;
+	display: block;
+	text-align: center;
 }
 .categories li a img {
 	max-width: 100%;
